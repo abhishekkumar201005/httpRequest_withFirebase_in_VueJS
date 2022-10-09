@@ -68,8 +68,9 @@ export default {
       }
       this.invalidInput = false;
       this.error = null;
+      {/* 'https://httpdemo-vue-default-rtdb.asia-southeast1.firebasedatabase.app/surveys.json'*/}
       fetch(
-        'https://httpdemo-vue-default-rtdb.asia-southeast1.firebasedatabase.app/surveys.json',
+        'https://vueprojectfirebase-b6c84-default-rtdb.asia-southeast1.firebasedatabase.app/surveys.json'
         {
           method: 'POST',
           headers: {
